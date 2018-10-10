@@ -20,7 +20,7 @@ public class CtsdemoApplicationTests {
 	public void testFindAllCourses() {
 		List<Course> courses = repo.findAll();
 		System.out.println(courses);
-		Assert.assertEquals(courses.size(), 5);
+		Assert.assertEquals(courses.size(), 4);
 		
 	}
 

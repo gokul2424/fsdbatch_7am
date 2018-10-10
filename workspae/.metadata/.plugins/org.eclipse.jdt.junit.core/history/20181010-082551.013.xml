@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CtsdemoApplicationTests" project="ctsdemo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.cts.ctsdemo.CtsdemoApplicationTests" time="1.015">
+    <testcase name="testFindAllCourses" classname="com.cts.ctsdemo.CtsdemoApplicationTests" time="1.015"/>
+  </testsuite>
+</testrun>

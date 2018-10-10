@@ -1,27 +1,16 @@
 package com.cts.ctsdemo;
 
-import java.util.List;
-
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class CtsdemoApplicationTests {
-	
-	@Autowired
-	CourseRepo repo;
 
 	@Test
-	public void testFindAllCourses() {
-		List<Course> courses = repo.findAll();
-		System.out.println(courses);
-		Assert.assertEquals(courses.size(), 5);
-		
+	public void contextLoads() {
 	}
 
 }
